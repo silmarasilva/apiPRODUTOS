@@ -182,5 +182,4 @@ def not_found(error=None):
     return response
 
 if __name__ == "__main__":
-    app.debug = True
-    app.run(port=5200)
+    app.run(debug=True, host = "0.0.0.0", port = 5002)
